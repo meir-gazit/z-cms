@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas/count",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas/:id",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas/:id",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sub-area-can-have-many-localities-and-belong-to-only-one-areas/:id",
+      "handler": "sub-area-can-have-many-localities-and-belong-to-only-one-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

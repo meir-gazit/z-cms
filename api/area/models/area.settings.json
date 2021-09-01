@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "area",
+  "info": {
+    "name": "Area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "minLength": 2,
+      "required": true,
+      "private": false
+    },
+    "Number": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "unique": true,
+      "min": 1,
+      "required": true
+    },
+    "sub_areas": {
+      "collection": "sub-area-can-have-many-localities-and-belong-to-only-one-area"
+    }
+  }
+}

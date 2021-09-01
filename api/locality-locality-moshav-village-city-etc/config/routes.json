@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/locality-locality-moshav-village-city-etcs",
+      "handler": "locality-locality-moshav-village-city-etc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/locality-locality-moshav-village-city-etcs/count",
+      "handler": "locality-locality-moshav-village-city-etc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/locality-locality-moshav-village-city-etcs/:id",
+      "handler": "locality-locality-moshav-village-city-etc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/locality-locality-moshav-village-city-etcs",
+      "handler": "locality-locality-moshav-village-city-etc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/locality-locality-moshav-village-city-etcs/:id",
+      "handler": "locality-locality-moshav-village-city-etc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/locality-locality-moshav-village-city-etcs/:id",
+      "handler": "locality-locality-moshav-village-city-etc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
